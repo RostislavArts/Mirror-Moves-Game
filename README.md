@@ -1,4 +1,4 @@
 # Mirror Moves
 
 Simple Android game that recreates classic board game
-Made by as side project as a practice for Kotlin course
+Made by me as side project for practice
