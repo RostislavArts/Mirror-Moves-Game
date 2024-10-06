@@ -27,3 +27,9 @@ SOFTWARE.
 This project includes assets sourced from Freepik (https://www.freepik.com). Proper attribution for these assets is required as per Freepik's licensing terms. Attribution details are available in the "About Us" tab of this project.
 
 Please ensure that this attribution is maintained in any distribution or use of this project.
+
+# Sound Attribution (for ZapSplat sounds)
+
+This project also includes sounds sourced from ZapSplat (https://www.zapsplat.com). As per their licensing terms, you must credit "ZapSplat" in a reasonable manner when using one or more of their sounds or music tracks in your work.
+
+Providing a link back to the specific sound or category page on ZapSplat's website is optional, but always appreciated.
