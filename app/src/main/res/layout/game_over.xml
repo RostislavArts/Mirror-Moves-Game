@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".GameOver">
+
+    <ImageView
+        android:id="@+id/plate"
+        android:layout_width="350dp"
+        android:layout_height="280dp"
+        android:contentDescription="@string/contDescrScores"
+        android:src="@drawable/plate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/gameOver"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/game_over"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/yellowish_white"
+        android:fontFamily="@font/riffic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/yellowish_white"
+        android:fontFamily="@font/riffic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gameOver"
+        app:layout_constraintVertical_bias="0.06"/>
+
+    <TextView
+        android:id="@+id/highscore"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/high_score"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/yellowish_white"
+        android:fontFamily="@font/riffic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gameOver"
+        app:layout_constraintVertical_bias="0.18"/>
+
+    <TextView
+        android:id="@+id/newHighScoreTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/riffic"
+        android:text="@string/new_high_score"
+        android:textColor="@color/more_yellowish_white"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@id/plate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/restartBtn"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/restart"
+        android:textSize="26sp"
+        android:textColor="@color/yellowish_white"
+        android:fontFamily="@font/riffic"
+        android:background="@drawable/button2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/plate"
+        app:layout_constraintVertical_bias="0.2"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/toMenuBtn"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/back_to_main"
+        android:textSize="26sp"
+        android:textColor="@color/yellowish_white"
+        android:fontFamily="@font/riffic"
+        android:background="@drawable/button2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/restartBtn"
+        app:layout_constraintVertical_bias="0.3"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

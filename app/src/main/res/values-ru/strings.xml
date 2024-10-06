@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mirror Moves</string>
+    <string name="start_btn">Обычный</string>
+    <string name="random_mode_btn">Ремикс</string>
+    <string name="about_us">\nMirror Moves (ver. 1.0)\n\nСоздано с любовью\nRostislavArts\n\nОсобая благодарность:\nlunnica\n\nДизайн кнопок разработан upklyak на Freepik\nДизайн фона разработан macrovector на Freepik\n</string>
+    <string name="game_over">Игра Окончена</string>
+    <string name="score">Ваш счёт: %1$d</string>
+    <string name="high_score">Лучший счёт: %1$d</string>
+    <string name="comp_turn">Внимание</string>
+    <string name="player_turn">Ваш ход</string>
+    <string name="new_high_score">Новый Рекорд!</string>
+    <string name="back_to_main">Главное Меню</string>
+    <string name="restart">Заново</string>
+    <string name="standard_mode">Режим: Обычный</string>
+    <string name="random_mode">Режим: Ремикс</string>
+    <string name="contDescrAboutBtn">О Нас</string>
+    <string name="contDescrSoundToggle">Переключатель Звука</string>
+    <string name="contDescrScores">Счёт</string>
+    <string name="contDescrUpBtn">Кнопка "Вверх"</string>
+    <string name="contDescrDownBtn">Кнопка "Вниз"</string>
+    <string name="contDescrRightBtn">Кнопка "Вправо"</string>
+    <string name="contDescrLeftBtn">Кнопка "Влево"</string>
+    <string name="contDescrTensorLogo">Логотип Tensor Projects</string>
+    <string name="contDescrTensorLogoBackground">Фон Логотипа Tensor Projects</string>
+</resources>

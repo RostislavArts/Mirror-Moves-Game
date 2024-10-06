@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mirror Moves</string>
+    <string name="start_btn">Standard</string>
+    <string name="random_mode_btn">Remix</string>
+    <string name="about_us">\nMirror Moves (ver. 1.0)\n\nMade with love by\nRostislavArts\n\nSpecial thanks to:\nlunnica\n\nButtons are designed by upklyak on Freepik\nBackground designed by macrovector on Freepik\n</string>
+    <string name="game_over">Game Over</string>
+    <string name="score">Your Score: %1$d</string>
+    <string name="high_score">High Score: %1$d</string>
+    <string name="comp_turn">Attention</string>
+    <string name="player_turn">Your turn</string>
+    <string name="new_high_score">New High Score!</string>
+    <string name="back_to_main">Main Menu</string>
+    <string name="restart">Try Again</string>
+    <string name="standard_mode">Mode: Standard</string>
+    <string name="random_mode">Mode: Remix</string>
+    <string name="contDescrAboutBtn">About Us</string>
+    <string name="contDescrSoundToggle">Sound Toggle</string>
+    <string name="contDescrScores">Scores</string>
+    <string name="contDescrUpBtn">Up Button</string>
+    <string name="contDescrDownBtn">Down Button</string>
+    <string name="contDescrRightBtn">Right Button</string>
+    <string name="contDescrLeftBtn">Left Button</string>
+    <string name="contDescrTensorLogo">Tensor Projects Logo</string>
+    <string name="contDescrTensorLogoBackground">Background of Tensor Projects Logo</string>
+</resources>
