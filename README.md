@@ -3,6 +3,7 @@
 
 # 🎮 Mirror Moves
 **Mirror Moves** is a fun and challenging memory game fully written in **Kotlin**! This project is an adaptation of the classic game "Simon Says". This game was made as my side project to train my Kotlin skills. 
+</div>
 
 ## 🚀 Features
 
