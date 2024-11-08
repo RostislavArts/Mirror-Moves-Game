@@ -11,8 +11,8 @@
 - 🎨 **Skeumorphic UI**: Nostalgic user interface designed for an enjoyable experience.
 
 ## Screenshots
-<img src="https://github.com/RostislavArts/Mirror-Moves-Game/blob/main/screenshots/screenshot1.png" width="400">
-<img src="https://github.com/RostislavArts/Mirror-Moves-Game/blob/main/screenshots/screenshot2.png" width="400">
+<img src="https://github.com/RostislavArts/Mirror-Moves-Game/blob/main/screenshots/screenshot1.png" width="200">
+<img src="https://github.com/RostislavArts/Mirror-Moves-Game/blob/main/screenshots/screenshot2.png" width="200">
 
 ## 🤝 Credit
 
